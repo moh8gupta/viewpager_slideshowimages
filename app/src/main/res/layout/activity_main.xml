@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:LinearLayout="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_height ="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight=".5">
+
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hi   i am mohit gupta ,i am the android developer"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="move to next"
+        android:onClick="clicked"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="move to next"
+        />
+
+</LinearLayout>
